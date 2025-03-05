@@ -48,3 +48,23 @@ let ans = function(){
 }
 console.log(ans);
 
+
+//meomory in javascrpit;
+
+//primitive - stack meomory used  whatever we write we get a copy of that
+//heap - non -primptive ; here we get the reference of the value
+//stack
+let a = 10;
+let b = a;
+console.log(a,b);
+
+//heap 
+let user ={
+    name :"sahil",
+    class:"btech"
+}
+
+let user1 = user;
+
+user1.name = "don";
+console.log(user1);
