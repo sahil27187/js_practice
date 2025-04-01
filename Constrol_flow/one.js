@@ -43,20 +43,20 @@ let balance = 200;
 
 
  //falsy values 
- 1)false
- 2) 0
- 3) -0;
- 4) BigInt 0n,
- 5) null
- 6) undefined
- 7)NaN
+//  1)false
+//  2) 0
+//  3) -0;
+//  4) BigInt 0n,
+//  5) null
+//  6) undefined
+//  7)NaN
 
 
  //turhy values
- "0" is true
- 'false' is true;
- " " is turthy
-[],{},function(){} is true;
+//  "0" is true
+//  'false' is true;
+//  " " is turthy
+// [],{},function(){} is true;
 
 
 const emptyOjb ={};
