@@ -105,5 +105,23 @@ document.querySelector('p')
 my_convertedarray= Array.from(tempClassList) --> 
 
 <!-- my_convertedarray.foreach(funtion(el){
-    console.log('el');
-}) -->
+    console.log('el');    }) -->
+
+
+    myH2.forEach(function(h) {
+        h.style.color = 'red';
+    });
+    
+    myH2.forEach(function(h) {
+        h.style.color = 'black';
+        h.style.backgroundColor = 'green';
+        h.style.padding = '10px';
+    });
+    
+    myH2.forEach(function(h) {
+        h.style.color = 'black';
+        h.style.backgroundColor = 'green';
+        h.style.padding = '10px';
+        h.innerText = "Hitesh";
+    });
+    
