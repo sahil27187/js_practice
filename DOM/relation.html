@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> sahil and code </title>
+</head>
+<body style="background-color: black; color: #ffff;">
+    
+</body>
+<script>
+    const div = document.createElement('div')
+    console.log(div);
+    div.className="main"
+    div.id = Math.ceil(Math.random()*10)
+    div.setAttribute("title","genrated title")
+    div.style.backgroundColor ="green"
+    div.style.padding="20px"
+    div.style.borderRadius="20px"
+    div.style.color="orange"
+    div.style.textAlign="center"
+    
+    //this is present in memory 
+    //div.innerText ="Sahil aur code"
+    const present = document.createTextNode("Sahil and code");
+    div.appendChild(present)
+
+    //attach to page 
+    document.body.appendChild(div)//now the page has dislay the div here
+
+
+</script>
+</html>
