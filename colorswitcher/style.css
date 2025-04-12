@@ -1,0 +1,64 @@
+/* src/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    color: white;
+  }
+  
+  h2 {
+    color: white;
+  }
+  
+  span.box{
+    display: inline-block;
+    text-align:center;
+    font-weight: bold;
+    padding-top: 10px;
+    width: 100px;
+    height: 45px;
+    border-radius: 15px;
+    margin: 10px;
+    cursor:all-scroll;
+    background-color: palevioletred;
+  }
+  span.button {
+    display: inline-block;
+    width: 100px; /* Width of each box */
+    height: 100px; /* Height of each box */
+    margin: 10px; /* Spacing between boxes */
+    border-radius: 8px; /* Rounded corners for the boxes */
+    cursor: pointer; /* Pointer cursor to indicate clickable elements */
+  }
+  
+  /* Background colors based on IDs */
+  #grey {
+    background-color: grey;
+  }
+  
+  #yellow {
+    background-color: yellow;
+  }
+  
+  #blue {
+    background-color: blue;
+  }
+  
+  #green {
+    background-color: green;
+  }
+  
+  /* Styling for the instruction text */
+  span {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
